@@ -1,0 +1,18 @@
+#Choose active environment: test1
+activeEnvironmentName: test1
+browser:
+  #Available browsers: chrome ; firefox ; default: Edge
+  browserName: chrome
+environments:
+  test1:
+    envName: test1
+    appUrl: http://146.59.32.4/index.php
+    min_first_filter: $9.00
+    max_first_filter: $10.00
+    min_second_filter: $11.00
+    max_second_filter: $29.00
+    first_product_quantity: 5
+    waitTime: 15
+    go_left: -10
+    go_right: 10
+
